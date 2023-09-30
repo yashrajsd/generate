@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.sec1gradient{
+    border-radius: 3.5vw 3.5vw 0 0;
+    display: flex;
+    width: 77.417vw;
+    height: 30.667vw;
+    align-items: end;
+    background-image: linear-gradient(#5C39E9,#AE1FF1,#5EFFBB,#0C7CFF);
+    justify-content: center;
+}
+
+/* Section 0 */
+.sec0bg{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url('./utils/section0.jpg'), lightgray 50% / cover no-repeat;
+}
+
+/* section 1 */
+.transperant-black{
+    border-radius: 2rem;
+    background: rgba(16, 16, 16, 0.86);
+    backdrop-filter: blur(15.5px);
+}
+
+.gradiantbtn{
+    background-image: linear-gradient(#5C39E9,#AE1FF1,#5EFFBB,#0C7CFF);
+}
+
+
+
+
